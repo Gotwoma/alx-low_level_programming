@@ -1,7 +1,6 @@
 #include<stdio.h>
 /**
- * main function - entry point of the program
- * function should have a return type
+ * main function is the entry point
  * return: 0 indicates success
  */
 int main(void)
