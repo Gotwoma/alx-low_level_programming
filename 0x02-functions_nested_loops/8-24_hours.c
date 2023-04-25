@@ -22,7 +22,7 @@ void jack_bauer(void)
 					_putchar(c + 48);
 					_putchar(d + 48);
 					_putchar('\n');
-					if (a >= 2 && b >= 4)
+					if (a == 2 && b == 3 && c == 5 && d ==9)
 					{
 						return;
 					}
