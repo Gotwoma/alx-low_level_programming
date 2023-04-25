@@ -11,7 +11,7 @@ void times_table(void)
 	for (b = 0; b < 10; b++)
 	{
 		_putchar('0');
-		for (a = 0; a < 10; a++)
+		for (a = 1; a < 10; a++)
 		{
 			int m = a * b;
 
@@ -20,7 +20,7 @@ void times_table(void)
 			{
 				_putchar(32);
 			}
-			if (m / 10 == 0)
+			else if (m / 10 == 0)
 			{
 				_putchar(32);
 			}
